@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "WorkingDayCalculator.Console": {
+      "commandName": "Project"
+    }
+  }
+}
