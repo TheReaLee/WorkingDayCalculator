@@ -11,7 +11,7 @@ public class Program
     public static void Main(string[] args)
     {
         var (serviceProvider, confiuration) = Configure(args);
-        var currentDate = DateTime.Now.AddDays(-3);
+        var currentDate = DateTime.Now;
         var dayCalculatorService = serviceProvider.GetRequiredService<IDayCalculatorService>();
 
         if (args.Any() && args[0].ToLower() == "week")
